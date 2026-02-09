@@ -1,0 +1,174 @@
+{
+  "name": "TalkON",
+  "version": "1.0.0",
+  "sourceFiles": {
+    "fullColor": "svg/talkon-logo-full.svg",
+    "iconOnly": "svg/talkon-icon.svg",
+    "textOnly": "svg/talkon-text.svg",
+    "darkMode": "svg/talkon-logo-dark.svg",
+    "iconDark": "svg/talkon-icon-dark.svg",
+    "monochromeBlack": "svg/talkon-monochrome-black.svg",
+    "monochromeWhite": "svg/talkon-monochrome-white.svg"
+  },
+  "pngExports": {
+    "favicon": {
+      "favicon-16x16.png": {
+        "size": "16x16",
+        "source": "talkon-icon.svg"
+      },
+      "favicon-32x32.png": {
+        "size": "32x32",
+        "source": "talkon-icon.svg"
+      },
+      "favicon-48x48.png": {
+        "size": "48x48",
+        "source": "talkon-icon.svg"
+      }
+    },
+    "pwa": {
+      "icon-192.png": {
+        "size": "192x192",
+        "source": "talkon-icon.svg"
+      },
+      "icon-512.png": {
+        "size": "512x512",
+        "source": "talkon-icon.svg"
+      },
+      "maskable-icon-192.png": {
+        "size": "192x192",
+        "source": "talkon-icon.svg",
+        "padding": true
+      },
+      "maskable-icon-512.png": {
+        "size": "512x512",
+        "source": "talkon-icon.svg",
+        "padding": true
+      }
+    },
+    "ios": {
+      "apple-touch-icon.png": {
+        "size": "180x180",
+        "source": "talkon-icon.svg"
+      },
+      "AppIcon-60@2x.png": {
+        "size": "120x120",
+        "source": "talkon-icon.svg"
+      },
+      "AppIcon-60@3x.png": {
+        "size": "180x180",
+        "source": "talkon-icon.svg"
+      },
+      "AppIcon-76@1x.png": {
+        "size": "76x76",
+        "source": "talkon-icon.svg"
+      },
+      "AppIcon-76@2x.png": {
+        "size": "152x152",
+        "source": "talkon-icon.svg"
+      },
+      "AppIcon-83.5@2x.png": {
+        "size": "167x167",
+        "source": "talkon-icon.svg"
+      },
+      "AppIcon-1024.png": {
+        "size": "1024x1024",
+        "source": "talkon-icon.svg"
+      }
+    },
+    "android": {
+      "ic_launcher_mdpi.png": {
+        "size": "48x48",
+        "source": "talkon-icon.svg"
+      },
+      "ic_launcher_hdpi.png": {
+        "size": "72x72",
+        "source": "talkon-icon.svg"
+      },
+      "ic_launcher_xhdpi.png": {
+        "size": "96x96",
+        "source": "talkon-icon.svg"
+      },
+      "ic_launcher_xxhdpi.png": {
+        "size": "144x144",
+        "source": "talkon-icon.svg"
+      },
+      "ic_launcher_xxxhdpi.png": {
+        "size": "192x192",
+        "source": "talkon-icon.svg"
+      },
+      "ic_launcher_round_mdpi.png": {
+        "size": "48x48",
+        "source": "talkon-icon.svg",
+        "round": true
+      },
+      "ic_launcher_round_hdpi.png": {
+        "size": "72x72",
+        "source": "talkon-icon.svg",
+        "round": true
+      },
+      "ic_launcher_round_xhdpi.png": {
+        "size": "96x96",
+        "source": "talkon-icon.svg",
+        "round": true
+      },
+      "ic_launcher_round_xxhdpi.png": {
+        "size": "144x144",
+        "source": "talkon-icon.svg",
+        "round": true
+      },
+      "ic_launcher_round_xxxhdpi.png": {
+        "size": "192x192",
+        "source": "talkon-icon.svg",
+        "round": true
+      }
+    },
+    "desktop": {
+      "icon-16.png": {
+        "size": "16x16",
+        "source": "talkon-icon.svg"
+      },
+      "icon-32.png": {
+        "size": "32x32",
+        "source": "talkon-icon.svg"
+      },
+      "icon-48.png": {
+        "size": "48x48",
+        "source": "talkon-icon.svg"
+      },
+      "icon-64.png": {
+        "size": "64x64",
+        "source": "talkon-icon.svg"
+      },
+      "icon-128.png": {
+        "size": "128x128",
+        "source": "talkon-icon.svg"
+      },
+      "icon-256.png": {
+        "size": "256x256",
+        "source": "talkon-icon.svg"
+      },
+      "icon-512.png": {
+        "size": "512x512",
+        "source": "talkon-icon.svg"
+      },
+      "icon-1024.png": {
+        "size": "1024x1024",
+        "source": "talkon-icon.svg"
+      }
+    }
+  },
+  "colors": {
+    "primary": {
+      "blue": "#0066FF",
+      "teal": "#00D4FF"
+    },
+    "accent": {
+      "green": "#00CC88",
+      "orange": "#FF9500"
+    },
+    "neutral": {
+      "dark": "#1a1a2e",
+      "light": "#ffffff"
+    }
+  }
+}

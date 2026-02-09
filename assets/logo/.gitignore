@@ -1,0 +1,15 @@
+# Ignore generated PNG files
+# SVG files are the source of truth and should be committed
+png/**/*.png
+
+# Keep directory structure
+!png/.gitkeep
+!png/favicon/.gitkeep
+!png/pwa/.gitkeep
+!png/ios/.gitkeep
+!png/android/.gitkeep
+!png/general/.gitkeep
+
+# Ignore temporary files
+*.tmp
+.DS_Store
