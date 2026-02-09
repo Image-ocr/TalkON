@@ -1,0 +1,13 @@
+{
+  "name": "@talkon/backend-compliance",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@talkon/types": "*",
+    "@talkon/shared": "*",
+    "express": "^4.18.2"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@talkon/backend-security",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "dependencies": {
+    "@talkon/types": "*",
+    "@talkon/shared": "*",
+    "express": "^4.18.2",
+    "dotenv": "^16.4.1"
+  }
+}
