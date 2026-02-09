@@ -1,0 +1,88 @@
+{
+  "name": "TalkON - Secure Messaging",
+  "short_name": "TalkON",
+  "description": "Modern, secure, and scalable messaging platform with end-to-end encryption",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color":="#ffffff",
+  "theme_color":="#0066FF",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["social", "communication", "productivity"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/maskable-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/maskable-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/narrow.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshots/wide.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Chat",
+      "short_name": "Chat",
+      "description": "Start a new conversation",
+      "url": "/chats/new",
+      "icons": [{ "src": "/shortcut-chat.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Contacts",
+      "short_name": "Contacts",
+      "description": "View your contacts",
+      "url": "/contacts",
+      "icons": [{ "src": "/shortcut-contacts.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Status",
+      "short_name": "Status",
+      "description": "View status updates",
+      "url": "/status",
+      "icons": [{ "src": "/shortcut-status.png", "sizes": "96x96" }]
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.talkon.app"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/app/talkon/id123456789"
+    }
+  ],
+  "prefer_related_applications": true
+}

@@ -72,3 +72,11 @@ ios/build
 # Misc
 .turbo/
 .cache/
+
+# Logo assets - generated PNGs
+# Keep SVGs, ignore generated raster files
+assets/logo/png/**/*.png
+!assets/logo/png/.gitkeep
+
+# Desktop app build icons (generated from SVGs)
+!packages/desktop-app/build/icon-generation.md

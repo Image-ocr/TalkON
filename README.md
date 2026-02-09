@@ -1,4 +1,4 @@
-# TalkON - Production-Grade Messaging Platform
+# <img src="assets/logo/svg/talkon-logo-full.svg" alt="TalkON" width="200">
 
 TalkON is a modern, secure, and scalable messaging platform built with end-to-end encryption (E2EE), real-time communication, and multi-device support. This is a complete production-grade implementation covering all 20 layers of global-scale messaging architecture.
 
@@ -76,6 +76,20 @@ npm run dev
 ## 📄 License
 
 AGPL-3.0 - See [LICENSE](LICENSE) file.
+
+## 🎨 Brand & Design
+
+TalkON features a modern, professional brand identity with a distinctive logo and color palette.
+
+- **Brand Guidelines**: See [docs/brand-guidelines.md](docs/brand-guidelines.md)
+- **Logo Usage**: See [docs/logo-usage.md](docs/logo-usage.md)
+- **Logo Assets**: Available in `assets/logo/`
+
+### Brand Colors
+- **Primary Blue**: `#0066FF`
+- **Teal**: `#00D4FF`
+- **Online Green**: `#00CC88`
+- **Activity Orange**: `#FF9500`
 
 ---
 

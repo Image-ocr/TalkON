@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TalkON Brand Colors -->
+    <color name="talkon_blue">#0066FF</color>
+    <color name="talkon_teal">#00D4FF</color>
+    <color name="talkon_green">#00CC88</color>
+    <color name="talkon_orange">#FF9500</color>
+    <color name="talkon_dark">#1a1a2e</color>
+    
+    <!-- Launcher Background -->
+    <color name="ic_launcher_background">#0066FF</color>
+    
+    <!-- App Theme Colors -->
+    <color name="primary">#0066FF</color>
+    <color name="primary_dark">#0052CC</color>
+    <color name="accent">#00D4FF</color>
+    <color name="status_bar">#0066FF</color>
+    
+    <!-- Splash Screen -->
+    <color name="splash_background">#0066FF</color>
+    <color name="splash_icon_tint">#FFFFFF</color>
+</resources>
