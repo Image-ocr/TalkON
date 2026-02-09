@@ -6,7 +6,10 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'TalkON - Secure Messaging',
-  description: 'Production-grade messaging platform',
+  description: 'Production-grade messaging platform with end-to-end encryption',
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({
