@@ -73,6 +73,34 @@ npm run setup
 npm run dev
 ```
 
+## 🚀 Deployment
+
+### Deploy Web App to Vercel
+
+The easiest way to deploy the TalkON web application:
+
+```bash
+# Install Vercel CLI
+npm install -g vercel
+
+# Deploy
+vercel
+```
+
+Or use the Vercel Dashboard:
+1. Import your Git repository
+2. Vercel auto-detects the monorepo configuration
+3. Deploy!
+
+**See [DEPLOYMENT.md](DEPLOYMENT.md) for complete deployment guide.**
+
+### Other Platforms
+
+- **Web App**: Optimized for Vercel (recommended), also supports Netlify, AWS Amplify
+- **Mobile App**: App Store (iOS) and Google Play (Android)
+- **Desktop App**: Electron distribution for Windows, macOS, Linux
+- **Backend Services**: Docker + Kubernetes deployment (see infrastructure/)
+
 ## 📄 License
 
 AGPL-3.0 - See [LICENSE](LICENSE) file.

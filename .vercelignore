@@ -1,18 +1,10 @@
-# Exclude backend services
-packages/backend-auth
-packages/backend-messaging
-packages/backend-media
-packages/backend-notifications
-packages/backend-sync
-packages/backend-ai
-packages/backend-security
-packages/backend-business
-packages/backend-platform-service
-packages/backend-compliance
-packages/backend-growth
-packages/backend-edge
-packages/backend-groups
-packages/backend-status
+# ============================================
+# VERCEL DEPLOYMENT IGNORE
+# Only deploy packages/web-app
+# ============================================
+
+# Exclude ALL backend services
+packages/backend-*
 
 # Exclude mobile app (React Native)
 packages/mobile-app
@@ -20,32 +12,65 @@ packages/mobile-app
 # Exclude desktop app (Electron)
 packages/desktop-app
 
-# Exclude build outputs
-node_modules
-.next
-out
-build
-dist
-.turbo
-*.log
+# Exclude shared packages (not needed for deployment)
+packages/shared
+packages/types
+packages/encryption
 
-# Exclude development files
-.env
-.env.local
-.env.*.local
-coverage
-.vscode
-.idea
-*.md
-docs
-scripts
-infrastructure
-
-# Exclude Git
-.git
-.gitignore
-
-# Exclude Docker
+# Exclude infrastructure
+infrastructure/
 docker-compose.yml
 Dockerfile*
 .dockerignore
+
+# Exclude build outputs
+node_modules/
+.next/
+out/
+build/
+dist/
+.turbo/
+*.tsbuildinfo
+
+# Exclude development files
+.env
+.env*.local
+coverage/
+.vscode/
+.idea/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Exclude documentation
+docs/
+*.md
+!packages/web-app/*.md
+
+# Exclude scripts
+scripts/
+
+# Exclude Git
+.git/
+.gitignore
+.github/
+
+# Exclude test files
+**/*.test.ts
+**/*.test.tsx
+**/*.spec.ts
+**/*.spec.tsx
+**/__tests__/
+**/test/
+jest.config.js
+
+# Exclude OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Keep only web-app essentials
+!packages/web-app

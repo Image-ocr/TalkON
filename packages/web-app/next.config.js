@@ -1,11 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  distDir: '.next',
+  reactStrictMode: true,
+  swcMinify: true,
   images: {
-    unoptimized: true,
+    domains: [],
+    remotePatterns: [],
   },
-  trailingSlash: true,
+  // Disable static export for Vercel deployment
+  // output: 'export' is only for static hosting, not needed for Vercel
 }
 
 module.exports = nextConfig
