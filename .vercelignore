@@ -1,0 +1,51 @@
+# Exclude backend services
+packages/backend-auth
+packages/backend-messaging
+packages/backend-media
+packages/backend-notifications
+packages/backend-sync
+packages/backend-ai
+packages/backend-security
+packages/backend-business
+packages/backend-platform-service
+packages/backend-compliance
+packages/backend-growth
+packages/backend-edge
+packages/backend-groups
+packages/backend-status
+
+# Exclude mobile app (React Native)
+packages/mobile-app
+
+# Exclude desktop app (Electron)
+packages/desktop-app
+
+# Exclude build outputs
+node_modules
+.next
+out
+build
+dist
+.turbo
+*.log
+
+# Exclude development files
+.env
+.env.local
+.env.*.local
+coverage
+.vscode
+.idea
+*.md
+docs
+scripts
+infrastructure
+
+# Exclude Git
+.git
+.gitignore
+
+# Exclude Docker
+docker-compose.yml
+Dockerfile*
+.dockerignore

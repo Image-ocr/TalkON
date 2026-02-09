@@ -1,0 +1,22 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "cd packages/web-app && npm run build",
+  "outputDirectory": "packages/web-app/.next",
+  "devCommand": "cd packages/web-app && npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_APP_URL": "https://talkon.vercel.app"
+    }
+  },
+  "functions": {
+    "packages/web-app/src/app/api/**/*.ts": {
+      "maxDuration": 30
+    }
+  }
+}
